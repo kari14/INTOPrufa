@@ -235,5 +235,5 @@ int samtals( int* hruga )
 	return samtala;
 }
 void KariMimisson()
-{ cout << "Kári Mímisson er frábær og gerği ekki rassgat í şessum kóğa nema şessa línu sem er jú frekar mikilvæg" << endl;
+{ cout << "Kari Mimisson er frabær og gerdi ekki rassgat í şessum koğa nema şessa linu sem er ju frekar mikilvæg " << endl;
 }
