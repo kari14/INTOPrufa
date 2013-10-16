@@ -28,6 +28,10 @@ void spila( );
 //mismargar hrúgur í hvert og eitt skipti:
 int hrugufjoldi;
 
+// Þetta fall var skrifað af Kára Mímissyni 16. okt 2013
+void KariMimisson();
+
+
 //Hér byrjar aðalforritið:
 int main( )
 {
@@ -39,7 +43,7 @@ int main( )
 		cout << "                      1. Spila NIM" << endl;
 		cout << "                      2. Birta reglurnar i NIM" << endl;
 		cout << "                      3. Haetta " << endl << endl;
-		cout << "                      Veldu 1, 2 eda 3:" << endl << endl;
+		cout << "                      Veldu 1, 2 eda 3:" << endl << endl;						KariMimisson();
 		cin >> val;
 		switch ( val )
 		{
@@ -229,4 +233,7 @@ int samtals( int* hruga )
 	}
 
 	return samtala;
+}
+void KariMimisson()
+{ cout << "Kári Mímisson er frábær og gerði ekki rassgat í þessum kóða nema þessa línu sem er jú frekar mikilvæg" << endl;
 }
